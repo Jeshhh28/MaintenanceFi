@@ -1,0 +1,56 @@
+/* Global Styles */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Login Page */
+.login-page {
+  background-color: #f0f2f5;
+}
+
+/* Dashboard */
+.student-dashboard,
+.admin-dashboard {
+  background-color: #f8f9fa;
+}
+
+/* Form Styles */
+.form-control:focus,
+.form-select:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Table Styles */
+.table th {
+  background-color: #f8f9fa;
+}
+
+/* Card Styles */
+.card {
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-header:first-child {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+/* Badge Styles */
+.badge {
+  font-weight: 500;
+  padding: 0.35em 0.65em;
+}
+
